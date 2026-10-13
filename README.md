@@ -81,3 +81,10 @@ The files provide numerical routines only. There is no command-line entry point,
 ## Dependency
 
 The included routines use NumPy and the Python standard library. Import them as modules under `core` from the repository root. There are no import-time experiments, file writes, downloads, or external registration calls.
+
+## Acknowledgments
+
+We thank the authors of **GROR** for making their research and implementation publicly available. The full ACPR pipeline generates transformation hypotheses using a compatibility graph and an axial-rotation search adapted from GROR, as described in the paper. This hypothesis-generation stage is not included in the present partial source release.
+
+- **Paper:** Li Yan, Pengcheng Wei, Hong Xie, Jicheng Dai, Hao Wu, and Ming Huang. [A New Outlier Removal Strategy Based on Reliability of Correspondence Graph for Fast Point Cloud Registration](https://doi.org/10.1109/TPAMI.2022.3226498). *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 45(7), 7986–8002, 2023.
+- **Official code:** [WPC-WHU/GROR](https://github.com/WPC-WHU/GROR).
